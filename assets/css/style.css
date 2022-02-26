@@ -444,7 +444,7 @@ div#preloader {
   color: #0d2529;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #72A1E5;
+  color: #03CEA4;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -774,7 +774,7 @@ div#preloader {
 
 .team-social-icon {
   left: 50%;
-  margin-left: -61px;
+  /*margin-left: -61px; per l'inserimento anche dei social network  facebook e instagram*/
   opacity: 0;
   position: absolute;
   top: 30%;

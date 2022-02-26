@@ -8,7 +8,8 @@
       <meta content="" name="description" />
       <meta content="" name="keywords" />
 
-      <!-- Vendor CSS Files -->
+      <!-- importazione dei file CSS  -->
+	  <!-- Non modificare i seguenti file-->
       <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
       <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
       <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
@@ -16,27 +17,28 @@
       <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
       <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-      <!-- Template Main CSS File -->
+      <!-- Importazione del file CSS principale -->
+	  <!--Le modifiche di stile devono essere obbligatoriamente effettuato su questo file-->
       <link href="assets/css/style.css" rel="stylesheet" />
 
-      <!-- =======================================================
-  * Template Name: eBusiness - v4.7.0
-  * Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+	  <!-- =======================================================
+	  * Template Name: eBusiness - v4.7.0
+	  * Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+	  * Author: BootstrapMade.com
+	  * License: https://bootstrapmade.com/license/
+	  ======================================================== -->
+   
    </head>
 
    <body>
-      <!-- ======= Header ======= -->
+      <!-- ======= Barra del menu ======= -->
       <header id="header" class="fixed-top d-flex align-items-center">
          <div class="container d-flex justify-content-between">
+		 <!--Logo in alto a sinistra della barra del menu-->
             <div class="logo">
-               <!--<h1><a href="index.html"><span>e</span>Business</a></h1>-->
-               <!-- Uncomment below if you prefer to use an image logo -->
                <a href="index.html"><img src="assets/img/logo.jpg" alt="" class="img-fluid" /></a>
             </div>
-
+			<!--Link alle sezioni della pagina html-->
             <nav id="navbar" class="navbar">
                <ul>
                   <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
@@ -47,17 +49,17 @@
                </ul>
                <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
-            <!-- .navbar -->
+            
          </div>
       </header>
-      <!-- End Header -->
+      <!-- End Barra del menu -->
 
-      <!-- ======= hero Section ======= -->
+      <!-- ======= Sezione relativa allo slider ======= -->
       <section id="hero">
          <div class="hero-container">
             <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
                <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
-
+				<!--start prima pagina-->
                <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/1.jpg);">
                      <div class="carousel-container">
@@ -67,7 +69,9 @@
                         </div>
                      </div>
                   </div>
-
+				  <!--end prima pagina-->
+				  
+				  <!--start seconda pagina-->
                   <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/2.jpg);">
                      <div class="carousel-container">
                         <div class="container">
@@ -76,7 +80,9 @@
                         </div>
                      </div>
                   </div>
-
+					<!--end seconda pagina-->
+					
+					<!--start terza pagina pagina-->
                   <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/3.jpg);">
                      <div class="carousel-container">
                         <div class="container">
@@ -85,6 +91,8 @@
                         </div>
                      </div>
                   </div>
+				  <!--end terza pagina-->
+				  
                </div>
 
                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
@@ -97,7 +105,7 @@
             </div>
          </div>
       </section>
-      <!-- End Hero Section -->
+      <!-- End Slider -->
 
       <main id="main">
          <!-- ======= About Section ======= -->
@@ -111,23 +119,24 @@
                   </div>
                </div>
                <div class="row">
-                  <!-- single-well start-->
+                  <!-- Inserimento dell'immagine-->
                   <div class="col-md-6 col-sm-6 col-xs-12">
                      <div class="well-left">
                         <div class="single-well">
-                           <a href="#">
+                           <a href="#services">
                               <img src="assets/img/about/1.jpg" alt="" />
                            </a>
                         </div>
                      </div>
                   </div>
-                  <!-- single-well end-->
+                  <!-- Termine inserimento immagine-->
+				  <!-- Sezione relativa al testo: colonna a sinistra-->
                   <div class="col-md-6 col-sm-6 col-xs-12">
                      <div class="well-middle">
                         <div class="single-well">
-                           <a href="#">
+                           
                               <h4 class="sec-head">DI COSA CI OCCUPIAMO</h4>
-                           </a>
+                           
                            <p>
                               Redug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure aspernatur sit adipisci quaerat unde at nequeRedug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis
                               iure
@@ -142,7 +151,7 @@
                         </div>
                      </div>
                   </div>
-                  <!-- End col-->
+                  <!-- End sezione testo-->
                </div>
             </div>
          </div>
@@ -159,7 +168,7 @@
                   </div>
                </div>
                <div class="row text-center">
-                  <!-- Start Left services -->
+                  <!-- Inzio servizio -->
                   <div class="col-md-4 col-sm-4 col-xs-12">
                      <div class="about-move">
                         <div class="services-details">
@@ -173,9 +182,11 @@
                               </p>
                            </div>
                         </div>
-                        <!-- end about-details -->
+                        
                      </div>
                   </div>
+				  <!-- fine servizio servizio -->
+				  <!-- Inzio servizio -->
                   <div class="col-md-4 col-sm-4 col-xs-12">
                      <div class="about-move">
                         <div class="services-details">
@@ -189,11 +200,13 @@
                               </p>
                            </div>
                         </div>
-                        <!-- end about-details -->
+                        
                      </div>
                   </div>
+				  <!-- Fine servizio -->
+				  <!-- Inzio servizio -->
                   <div class="col-md-4 col-sm-4 col-xs-12">
-                     <!-- end col-md-4 -->
+                     
                      <div class="about-move">
                         <div class="services-details">
                            <div class="single-services">
@@ -206,11 +219,12 @@
                               </p>
                            </div>
                         </div>
-                        <!-- end about-details -->
+                        
                      </div>
                   </div>
+				  <!-- Fine servizio -->
+				  <!-- Inzio servizio -->
                   <div class="col-md-4 col-sm-4 col-xs-12">
-                     <!-- end col-md-4 -->
                      <div class="about-move">
                         <div class="services-details">
                            <div class="single-services">
@@ -223,12 +237,11 @@
                               </p>
                            </div>
                         </div>
-                        <!-- end about-details -->
                      </div>
                   </div>
-                  <!-- End Left services -->
+				  <!-- Fine servizio -->
+				  <!-- Inzio servizio -->
                   <div class="col-md-4 col-sm-4 col-xs-12">
-                     <!-- end col-md-4 -->
                      <div class="about-move">
                         <div class="services-details">
                            <div class="single-services">
@@ -241,12 +254,11 @@
                               </p>
                            </div>
                         </div>
-                        <!-- end about-details -->
                      </div>
                   </div>
-                  <!-- End Left services -->
+				  <!-- Fine servizio -->
+				  <!-- Inzio servizio -->
                   <div class="col-md-4 col-sm-4 col-xs-12">
-                     <!-- end col-md-4 -->
                      <div class="about-move">
                         <div class="services-details">
                            <div class="single-services">
@@ -259,17 +271,19 @@
                               </p>
                            </div>
                         </div>
-                        <!-- end about-details -->
                      </div>
                   </div>
+				  <!-- Fine servizio -->
                </div>
             </div>
          </div>
          <!-- End Services Section -->
 		 
-		          <!-- ======= Board Section ======= -->
-		<div  id="team">
-         <div class="our-team-area area-padding">
+		<!-- ======= Team Section ======= -->
+		<div  id="team"> <!--l'ID "team serve per raggiungere la sezione cliccando dal menu": questo div è un wrapper - unisce board + responsabili d'area-->
+         
+		 <!-- ======= Board Section ======= -->
+		 <div class="our-team-area area-padding">
             <div class="container">
                <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
@@ -290,17 +304,7 @@
                               <ul>
                                  <li>
                                     <a href="#">
-                                       <i class="bi bi-facebook"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
                                        <i class="bi bi-linkedin"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
-                                       <i class="bi bi-instagram"></i>
                                     </a>
                                  </li>
                               </ul>
@@ -309,10 +313,10 @@
                         <div class="team-content text-center">
                            <h4>Federica Bono</h4>
                            <p>Presidentessa</p>
-                        </div>
+						</div>
                      </div>
-                  </div>
-                  <!-- End column -->
+					 
+                  </div><!--end member-->
 
                   <!--start member-->
                   <div class="col-md-3 col-sm-3 col-xs-12">
@@ -325,17 +329,7 @@
                               <ul>
                                  <li>
                                     <a href="#">
-                                       <i class="bi bi-facebook"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
                                        <i class="bi bi-linkedin"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
-                                       <i class="bi bi-instagram"></i>
                                     </a>
                                  </li>
                               </ul>
@@ -344,10 +338,10 @@
                         <div class="team-content text-center">
                            <h4>Federica Bono</h4>
                            <p>Presidentessa</p>
-                        </div>
+						</div>
                      </div>
-                  </div>
-                  <!-- End column -->
+					 
+                  </div><!--end member-->
 
                   <!--start member-->
                   <div class="col-md-3 col-sm-3 col-xs-12">
@@ -360,17 +354,7 @@
                               <ul>
                                  <li>
                                     <a href="#">
-                                       <i class="bi bi-facebook"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
                                        <i class="bi bi-linkedin"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
-                                       <i class="bi bi-instagram"></i>
                                     </a>
                                  </li>
                               </ul>
@@ -379,10 +363,10 @@
                         <div class="team-content text-center">
                            <h4>Federica Bono</h4>
                            <p>Presidentessa</p>
-                        </div>
+						</div>
                      </div>
-                  </div>
-                  <!-- End column -->
+					 
+                  </div><!--end member-->
 
                   <!--start member-->
                   <div class="col-md-3 col-sm-3 col-xs-12">
@@ -395,17 +379,7 @@
                               <ul>
                                  <li>
                                     <a href="#">
-                                       <i class="bi bi-facebook"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
                                        <i class="bi bi-linkedin"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
-                                       <i class="bi bi-instagram"></i>
                                     </a>
                                  </li>
                               </ul>
@@ -414,10 +388,12 @@
                         <div class="team-content text-center">
                            <h4>Federica Bono</h4>
                            <p>Presidentessa</p>
-                        </div>
+						</div>
                      </div>
-                  </div>
-                  <!-- End column -->
+					 
+                  </div><!--end member-->
+				  
+				  
                </div>
             </div>
          </div>
@@ -447,17 +423,7 @@
                               <ul>
                                  <li>
                                     <a href="#">
-                                       <i class="bi bi-facebook"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
                                        <i class="bi bi-linkedin"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
-                                       <i class="bi bi-instagram"></i>
                                     </a>
                                  </li>
                               </ul>
@@ -466,10 +432,10 @@
                         <div class="team-content text-center">
                            <h4>Federica Bono</h4>
                            <p>Presidentessa</p>
-                        </div>
+						</div>
                      </div>
-                  </div>
-                  <!-- End column -->
+					 
+                  </div><!--end member-->
 
                   <!--start member-->
                   <div class="col-md-3 col-sm-3 col-xs-12">
@@ -482,17 +448,7 @@
                               <ul>
                                  <li>
                                     <a href="#">
-                                       <i class="bi bi-facebook"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
                                        <i class="bi bi-linkedin"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
-                                       <i class="bi bi-instagram"></i>
                                     </a>
                                  </li>
                               </ul>
@@ -501,10 +457,10 @@
                         <div class="team-content text-center">
                            <h4>Federica Bono</h4>
                            <p>Presidentessa</p>
-                        </div>
+						</div>
                      </div>
-                  </div>
-                  <!-- End column -->
+					 
+                  </div><!--end member-->
 
                   <!--start member-->
                   <div class="col-md-3 col-sm-3 col-xs-12">
@@ -517,17 +473,7 @@
                               <ul>
                                  <li>
                                     <a href="#">
-                                       <i class="bi bi-facebook"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
                                        <i class="bi bi-linkedin"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
-                                       <i class="bi bi-instagram"></i>
                                     </a>
                                  </li>
                               </ul>
@@ -536,10 +482,10 @@
                         <div class="team-content text-center">
                            <h4>Federica Bono</h4>
                            <p>Presidentessa</p>
-                        </div>
+						</div>
                      </div>
-                  </div>
-                  <!-- End column -->
+					 
+                  </div><!--end member-->
 
                   <!--start member-->
                   <div class="col-md-3 col-sm-3 col-xs-12">
@@ -552,17 +498,7 @@
                               <ul>
                                  <li>
                                     <a href="#">
-                                       <i class="bi bi-facebook"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
                                        <i class="bi bi-linkedin"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
-                                       <i class="bi bi-instagram"></i>
                                     </a>
                                  </li>
                               </ul>
@@ -571,73 +507,79 @@
                         <div class="team-content text-center">
                            <h4>Federica Bono</h4>
                            <p>Presidentessa</p>
-                        </div>
+						</div>
                      </div>
-                  </div>
-                  <!-- End column -->
+					 
+                  </div><!--end member-->
+                  
                </div>
             </div>
          </div>
          <!-- End Responsabili d'area section Section -->
 		 
+		 <!--End wrapper-->
 		 </div>
 
-         <!-- ======= Contact Section ======= -->
+         <!-- ======= Contact Section ======= --> <!--Contiene: form di contatto + sezione dove trovarci-->
          <div id="contact" class="contact-area">
+		 
             <div class="col-md-12 col-sm-12 col-xs-12">
                <div class="section-headline text-center">
                   <h2>CONTATTACI</h2>
                </div>
             </div>
-            <!-- ======= Contattaci Section ======= -->
+			
+            <!-- ======= Form per azienda ======= -->
             <div class="suscribe-area">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
                         <div class="suscribe-text text-center">
                            <h3>form di contatto per le aziende</h3>
-                           <a class="sus-btn" href="https://forms.gle/71q1T6BrC42A9nx67">Vai alla form di contatto</a>
+                           <a class="sus-btn" href="https://forms.gle/71q1T6BrC42A9nx67" target="_blank">Vai alla form di contatto</a>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-            <!-- End Suscribe Section -->
-            <br />
+			<!--end form aziende-->
+            
+            <br>
 
-            <!-- ======= Recruiting Section ======= -->
+            <!-- ======= Form per recruiting ======= -->
             <div class="suscribe-area">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
                         <div class="suscribe-text text-center">
                            <h3>Candidati per una delle posizioni aperte</h3>
-                           <a class="sus-btn" href="https://forms.gle/tmj2hmUfe2betDt79">invia candidatura</a>
+                           <a class="sus-btn" href="https://forms.gle/tmj2hmUfe2betDt79" target="_blank">invia candidatura</a>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-            <!-- End Suscribe Section -->
-
+            <!-- End form recruiting -->
+			
+			<!--Start sezione dove trovarci-->
             <div class="contact-inner area-padding">
                <div class="container">
                   <div class="section-headline text-center">
                      <h2>DOVE TROVARCI</h2>
                   </div>
-                  <div class="row">
-                     <!-- Start contact icon column -->
+                  <!--Colonna "fittizia in cui si trova" l'immagine della "posizione"-->
+				  <div class="row">
+                     <!-- primo blocco bianco -->
                      <div class="col-md-4">
                         <div class="contact-icon text-center">
                            <div class="single-icon">
                               <i class=""></i>
-                              <!--inserire classe-->
-                              <p>
-                                 <!--inserire testo-->
-                              </p>
+                              <p></p>
                            </div>
                         </div>
                      </div>
+					 <!--end primo blocco bianco-->
+					 <!--start blocco con immagine-->
                      <div class="col-md-4">
                         <div class="contact-icon text-center">
                            <div class="single-icon">
@@ -649,7 +591,9 @@
                            </div>
                         </div>
                      </div>
-                     <!-- Start contact icon column -->
+					 <!--end blocco con immagine-->
+					 
+                     <!--start secondo blocco bianco-->
                      <div class="col-md-4">
                         <div class="contact-icon text-center">
                            <div class="single-icon">
@@ -658,11 +602,12 @@
                            </div>
                         </div>
                      </div>
-                     <!-- Start contact icon column -->
+                     <!--end secondo blocco bianco-->
                   </div>
                </div>
             </div>
-
+			
+			<!--start immagine google maps-->
             <iframe
                src="https://maps.google.com/maps?q=universit%C3%A0%20degli%20studi%20di%20bergamo%20via%20caniana&t=&z=17&ie=UTF8&iwloc=&output=embed"
                width="100%"
@@ -671,8 +616,11 @@
                style="border: 0;"
                allowfullscreen
             ></iframe>
+			<!----end immagine google maps-->
          </div>
          <!-- End Contact Section -->
+		 
+		 
       </main>
       <!-- End #main -->
 
@@ -681,15 +629,20 @@
          <div class="footer-area">
             <div class="container">
                <div class="row">
+			   
+			   <!--start blocco sinitro footer-->
                   <div class="col-md-4">
                      <div class="footer-content">
                         <div class="footer-head">
+							<!--scritta JEBERGAMO-->
                            <div class="footer-logo">
                               <h2>JE <span>BERGAMO</span></h2>
                            </div>
+						   <!--end scritta JEBERGAMO-->
 
                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-                           <div class="footer-icons">
+                           
+						   <div class="footer-icons">
                               <ul>
                                  <li>
                                     <a href="#"><i class="bi bi-facebook"></i></a>
@@ -703,13 +656,15 @@
                                  </li>
                               </ul>
                            </div>
+						   
                         </div>
                      </div>
-                  </div>
-                  <!-- end single footer -->
+                  </div> <!-- end blocco sinistro footer -->
+                  
                </div>
             </div>
          </div>
+		 <!--sezione crediti-->
          <div class="footer-area-bottom">
             <div class="container">
                <div class="row">
@@ -723,8 +678,10 @@
                </div>
             </div>
          </div>
+		 <!--end sezione crediti-->
       </footer>
       <!-- End  Footer -->
+
 
       <div id="preloader"></div>
       <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
